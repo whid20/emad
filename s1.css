@@ -1,0 +1,120 @@
+    * {
+    font-family: serif;
+    font-weight: bold;
+    text-shadow: none!important;
+    font-size: 15px !important;
+}
+               .label-primary,
+               .btn-primary,
+               .bg-primary,
+               .label-primary:hover,
+               .btn-primary:hover,
+               .btn-primary:focus {
+                 background-color: #8B455C !important;
+                 background-image: none;
+               }
+               .bg {
+                 background-color: #BFBFBF !important;
+               }
+               .bgg {
+                 background-color: lightslategray;
+               }
+               .pophead {
+                 background-color: slategrey;
+               }
+
+               .light {
+                 background-color: #EDEDED !important;
+               }
+               .label-primary,.btn-primary{
+                 background-color: #000000;
+               }
+
+             .broadcasters {
+                           position: absolute;
+                           top: 0;
+            			width:100%;
+            			background: #8B455C;
+                           left: 0
+                       }
+                       .broadcasters>div {
+                           max-width: 260px;
+                       }
+
+
+            		         .broadcasters>div>.prods {
+                        float: right;
+               width: 40px;
+               height: 40px;
+            right: 5px;
+               top: 8px;
+            color:palevioletred;
+               border: 2px solid;
+               margin: 0 1px;
+               text-align: center;
+               border-radius: 50%;
+               background-color: white;
+                       }
+                       .broadcasters>div>.prods>.fa {
+                           font-size: 28px !important;
+                           text-align: center;
+            			margin-top:5px;
+            			color: darkgray;"
+                       }
+
+
+                       .broadcasters>div>.prod {
+                        float: right;
+               width: 50px;
+               height: 52px;
+            color:#8B455C;
+               border: 2px solid gainsboro;
+               margin: 0 1px;
+               text-align: center;
+               border-radius: 50%;
+               background-color: white;
+                       }
+                       .broadcasters>div>.prod>.fa-microphone {
+                           font-size: 28px !important;
+                           text-align: center;
+                           margin-top: 2px;
+                       }
+                       .broadcasters>div>.prod>hr{
+                           margin: 0;
+                           border-top-color: #8B455C;
+                       }
+                       .broadcasters>div>.prod>.evant>i{
+                         position: relative;
+               font-size: 16px !important;
+               text-align: center;
+            color:#8B455C;
+               top: 36px;
+               height: 18px;
+               border-radius: 50%;
+               background-color: #ffffffc7;
+               border: 1px solid #d9534f70;
+                       }
+
+            		.broadcasters>div>.prods>.ismute{
+               position: absolute;
+               height: 3px;
+               background: gray;
+            display:none;
+               width: 38px;
+               margin-left: -2px;
+               margin-top: 17px;
+               transform: rotate( 135deg);
+            }
+
+            .broadcasters>div>.prod>.ismute {
+               position: absolute;
+               height: 3px;
+               background: gray;
+               display: none;
+               width: 50px;
+               margin-left: -3px;
+               margin-top: 22px;
+               transform: rotate(135deg);
+            }
+            .u-topic.dots {white-space: nowrap;max-width: 130%;}
+        
