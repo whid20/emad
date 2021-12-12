@@ -821,3 +821,8 @@ img.state_idle {
 @-webkit-keyframes swoopOut2 {
   100% {
     position:absolute;
+
+.label.ae.fa.label {
+    border: 1px solid #dad9d9!important;
+    border-radius: 50px 50px 50px 50px;
+}
