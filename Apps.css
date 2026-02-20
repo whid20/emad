@@ -1,0 +1,124 @@
+/* أسلوب عام للجسم */
+body {
+    background-color: #f0f0f5;
+    font-family: 'El Messiri', sans-serif;
+}
+
+/* إزالة أيقونات فارغة */
+.fa-cog:before, .fa-commenting-o:before, .fa-gear:before,
+.fa-group:before, .fa-users:before {
+    content: "";
+}
+
+/* Badges المستخدم */
+span.s1.fa.fa-user.label.badgex.label-as-badge.label-success {
+    padding: 2px 6px;
+    margin-right: 5px;
+    border-radius: 12px;
+    background-color: #4e3836;
+    color: #fff;
+    font-size: 12px;
+}
+
+/* الأزرار */
+a.label.label-primary.fl,
+div#l1 button.btn.btn-primary,
+div#l2 button.btn.btn-primary,
+div#l3 button.btn.btn-primary {
+    border-radius: 12px !important;
+    padding: 6px 12px !important;
+    background: linear-gradient(90deg,#4e3836 0,#674d4a 100%);
+    color: #fff !important;
+    text-align: center !important;
+    font-family: 'El Messiri', FontAwesome !important;
+    transition: 0.3s;
+}
+a.label.label-primary.fl:hover,
+div#l1 button.btn.btn-primary:hover,
+div#l2 button.btn.btn-primary:hover,
+div#l3 button.btn.btn-primary:hover {
+    background: linear-gradient(90deg,#674d4a 0,#4e3836 100%);
+}
+
+/* الحقول النصية */
+div#l1 input#u1,
+div#l2 input#pass1,
+div#l2 input#u2,
+div#l3 input#pass2,
+div#l3 input#u3 {
+    width: calc(100% - 12px);
+    padding: 8px;
+    margin: 5px 0;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    text-align: center;
+    font-size: 14px;
+    box-shadow: inset 0 1px 2px rgba(0,0,0,0.1);
+    transition: 0.2s;
+}
+div#l1 input#u1:focus,
+div#l2 input#pass1:focus,
+div#l2 input#u2:focus,
+div#l3 input#pass2:focus,
+div#l3 input#u3:focus {
+    border-color: #4e3836;
+    outline: none;
+    box-shadow: 0 0 5px rgba(78,56,54,0.5);
+}
+
+/* صناديق المحتوى */
+div#l1, div#l2, div#l3 {
+    border-radius: 15px;
+    padding: 15px;
+    margin: 15px auto;
+    width: 60% !important;
+    background: linear-gradient(135deg,#fff 0%,#e0e0e0 100%);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border: 1px solid #4e3836;
+}
+
+/* التبويبات */
+ul.nav.nav-tabs {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 15px 0;
+    padding: 2px;
+}
+ul.nav.nav-tabs>li {
+    flex: 1;
+    margin-right: 5px;
+}
+ul.nav.nav-tabs>li>a {
+    display: block;
+    text-align: center;
+    padding: 8px 0;
+    border-radius: 10px;
+    background: linear-gradient(90deg,#755754 0%,#4e3836 100%);
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+ul.nav.nav-tabs>li.active>a {
+    background: linear-gradient(90deg,#a01112 0%,#f0f0f5 100%);
+    color: #4e3836;
+}
+
+/* Scrollbar عصري */
+div#tlogins::-webkit-scrollbar {
+    width: 6px;
+}
+div#tlogins::-webkit-scrollbar-thumb {
+    background: linear-gradient(90deg,#755754 0%,#674d4a 51%,#4e3836 100%);
+    border-radius: 10px;
+}
+div#tlogins::-webkit-scrollbar-track {
+    background: #f0f0f5;
+    border-radius: 10px;
+}
+
+/* أيقونات وألوان خاصة */
+.fa.fa-user-secret { color: #b40666; margin-top: 4px !important; }
+.ae.label.label-primary.fa.fa-gear { color: #ffd900; }
+
+/* تحسين الخطوط داخل labels */
+div.label.label-primary { font-family: 'El Messiri', sans-serif !important; }
