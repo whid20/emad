@@ -804,6 +804,11 @@ img.state_idle {
 
 }
 
+.tab-content.fl {
+    width: 500px !important;
+    height: 250px !important;
+}
+
 .nav-tabs {
     border-bottom: 1px solid #5b5863;
 }
