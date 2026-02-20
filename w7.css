@@ -51,6 +51,8 @@ div#l2 input#pass1, div#l3 input#pass2 {
 
 div#l2 , div#l3 {
     padding: 2px!important;
+	width: 307px !important
+	
 }
 
 
@@ -805,8 +807,10 @@ img.state_idle {
 }
 
 .tab-content.fl {
-    width: 500px !important;
-    height: 250px !important;
+    width: 100px !important;
+    height: 111px !important;
+	position: relative;
+	
 }
 
 .nav-tabs {
